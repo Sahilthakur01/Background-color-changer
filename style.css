@@ -1,0 +1,59 @@
+html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+
+nav{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: grey; */
+  height: 30px;
+}
+
+.link1{
+  width: 100px;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid black; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  color: black; /* Text color */
+  background-color: white; /* Transparent background */
+  cursor: pointer;
+}
